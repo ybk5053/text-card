@@ -96,7 +96,6 @@ export class TextCard extends LitElement {
         position: absolute;
         top: 8px;
         left: 0;
-        color: #43454e;
         pointer-events: none;
         transform-origin: left center;
         transition: transform 250ms;
@@ -122,7 +121,6 @@ export class TextCard extends LitElement {
         border-radius: 50%;
         height: 2em;
         width: 2 em;
-        color: #FFFFFF;
         transition: color 250ms;
         display: flex;
         align-items: center;
@@ -210,11 +208,11 @@ customElements.define("text-card", TextCard);
 window.customCards = window.customCards || []; // Create the list if it doesn't exist. Careful not to overwrite it
 window.customCards.push({
   type: "text-card",
-  name: "Text Card",
+  name: "Text Input Card",
   preview: false,
   description: "Input Field with Button",
 });
-console.info("Text Card 0.1");
+console.info("Text Input Card 0.1");
 
 function deepmerge(t,s) {
     for (const [k, v] of Object.entries(s)) {
