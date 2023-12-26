@@ -59,7 +59,7 @@ export class TextCard extends LitElement {
       /* For input */
       .input-wrapper {
         position: relative;
-        margin-top: 30px; // To create space for floating inputs
+        margin-top: 5px; // To create space for floating inputs
         margin-inline: auto;
       }
       
